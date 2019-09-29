@@ -7,6 +7,8 @@
 ---
 # HOW TO RUN
 
+- Copy `variables.env.example` to `variables.env` & custom it
+
 ```bash
 npm start
 ```
