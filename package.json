@@ -4,7 +4,8 @@
   "description": "",
   "main": "start.js",
   "scripts": {
-    "start": "nodemon ./src/start.js --exec babel-node",
+    "start": "babel-node ./src/start.js",
+    "watch": "nodemon ./src/start.js --exec babel-node",
     "test": "jest"
   },
   "author": "",
